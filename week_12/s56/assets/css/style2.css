@@ -1,0 +1,40 @@
+.titulo {
+  text-align: center;
+  font-size: 60px;
+
+}
+
+/* Media queries */
+/* Mientras el ancho sea menor que 1200px */
+@media (max-width: 1200px) {
+  .titulo {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .titulo {
+    font-size: 30px;
+  }
+
+  p {
+    color: brown;
+  }
+}
+
+@media (max-width: 360px) {
+  .titulo {
+    font-size: 25px;
+  }
+  
+  p {
+    color: blue;
+    font-size: 10px;
+  }
+}
