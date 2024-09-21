@@ -1,0 +1,30 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* gap: 10px;
+  column-gap: 20px;
+  row-gap: 10px; */
+  gap: 10px 20px;
+  /* grid-auto-rows: 80px;*/
+  grid-template-rows: 100px auto;
+}
+
+.container > div {
+  background-color: #cfe8dc;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #4fb9e3;
+}
+
+.expanded {
+  grid-column: span 6;
+}
+
+.last {
+  grid-column: span 2;
+}
