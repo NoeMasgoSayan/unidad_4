@@ -1,0 +1,8 @@
+main {
+  width: 90%;
+  max-width: 400px;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
